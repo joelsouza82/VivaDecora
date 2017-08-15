@@ -1,0 +1,423 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8440F9431D98500300191CAD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8440F9421D98500300191CAD /* main.m */; };
+		8440F9461D98500300191CAD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8440F9451D98500300191CAD /* AppDelegate.m */; };
+		8440F94C1D98500300191CAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8440F94A1D98500300191CAD /* Main.storyboard */; };
+		8440F94E1D98500300191CAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8440F94D1D98500300191CAD /* Assets.xcassets */; };
+		8440F9511D98500300191CAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8440F94F1D98500300191CAD /* LaunchScreen.storyboard */; };
+		8440F9691D98504F00191CAD /* WebServiceConnect.m in Sources */ = {isa = PBXBuildFile; fileRef = 8440F9681D98504F00191CAD /* WebServiceConnect.m */; };
+		8440F9711D985C0E00191CAD /* ListViewControllerTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8440F9701D985C0E00191CAD /* ListViewControllerTableViewController.m */; };
+		8440F9741D985EC700191CAD /* ListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8440F9731D985EC700191CAD /* ListTableViewCell.m */; };
+		8440F97A1D98802600191CAD /* imageBackgorund.png in Resources */ = {isa = PBXBuildFile; fileRef = 8440F9791D98802600191CAD /* imageBackgorund.png */; };
+		8440F97E1D9880F500191CAD /* visibility.png in Resources */ = {isa = PBXBuildFile; fileRef = 8440F97D1D9880F500191CAD /* visibility.png */; };
+		8440F9811D98A21C00191CAD /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = 8440F9801D98A21C00191CAD /* star.png */; };
+		8440F9841D98A25C00191CAD /* DetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8440F9831D98A25C00191CAD /* DetailTableViewController.m */; };
+		E9C35C891D99B54D00B41316 /* vivadecora.png in Resources */ = {isa = PBXBuildFile; fileRef = E9C35C881D99B54D00B41316 /* vivadecora.png */; };
+		E9F43FE61D9963FC00959009 /* Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = E9F43FE51D9963FC00959009 /* Utilities.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8440F93E1D98500300191CAD /* VivaDecora.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VivaDecora.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8440F9421D98500300191CAD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8440F9441D98500300191CAD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8440F9451D98500300191CAD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8440F94B1D98500300191CAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8440F94D1D98500300191CAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8440F9501D98500300191CAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8440F9521D98500300191CAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8440F9671D98504F00191CAD /* WebServiceConnect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WebServiceConnect.h; path = Utilities/WebServiceConnect.h; sourceTree = "<group>"; };
+		8440F9681D98504F00191CAD /* WebServiceConnect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WebServiceConnect.m; path = Utilities/WebServiceConnect.m; sourceTree = "<group>"; };
+		8440F96F1D985C0E00191CAD /* ListViewControllerTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListViewControllerTableViewController.h; sourceTree = "<group>"; };
+		8440F9701D985C0E00191CAD /* ListViewControllerTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListViewControllerTableViewController.m; sourceTree = "<group>"; };
+		8440F9721D985EC700191CAD /* ListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListTableViewCell.h; sourceTree = "<group>"; };
+		8440F9731D985EC700191CAD /* ListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListTableViewCell.m; sourceTree = "<group>"; };
+		8440F9751D987BEA00191CAD /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Main.strings"; sourceTree = "<group>"; };
+		8440F9761D987BEA00191CAD /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		8440F9791D98802600191CAD /* imageBackgorund.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = imageBackgorund.png; sourceTree = "<group>"; };
+		8440F97D1D9880F500191CAD /* visibility.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = visibility.png; sourceTree = "<group>"; };
+		8440F9801D98A21C00191CAD /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
+		8440F9821D98A25C00191CAD /* DetailTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DetailTableViewController.h; path = ViewControllers/Detail/DetailTableViewController.h; sourceTree = "<group>"; };
+		8440F9831D98A25C00191CAD /* DetailTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DetailTableViewController.m; path = ViewControllers/Detail/DetailTableViewController.m; sourceTree = "<group>"; };
+		E9C35C881D99B54D00B41316 /* vivadecora.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vivadecora.png; sourceTree = "<group>"; };
+		E9F43FE41D9963FC00959009 /* Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Utilities.h; path = Utilities/Utilities.h; sourceTree = "<group>"; };
+		E9F43FE51D9963FC00959009 /* Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Utilities.m; path = Utilities/Utilities.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8440F93B1D98500300191CAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8440F9351D98500300191CAD = {
+			isa = PBXGroup;
+			children = (
+				8440F9401D98500300191CAD /* VivaDecora */,
+				8440F93F1D98500300191CAD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8440F93F1D98500300191CAD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8440F93E1D98500300191CAD /* VivaDecora.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8440F9401D98500300191CAD /* VivaDecora */ = {
+			isa = PBXGroup;
+			children = (
+				8440F9451D98500300191CAD /* AppDelegate.m */,
+				8440F9441D98500300191CAD /* AppDelegate.h */,
+				8440F96D1D985BF000191CAD /* ViewControllers */,
+				E9C35C8B1D99BC7700B41316 /* StoryBoards */,
+				8440F9661D98502800191CAD /* Util */,
+				8440F94D1D98500300191CAD /* Assets.xcassets */,
+				8440F9521D98500300191CAD /* Info.plist */,
+				8440F9771D98801100191CAD /* Resources */,
+				8440F9411D98500300191CAD /* Supporting Files */,
+			);
+			path = VivaDecora;
+			sourceTree = "<group>";
+		};
+		8440F9411D98500300191CAD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8440F9421D98500300191CAD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8440F9661D98502800191CAD /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				E9F43FE41D9963FC00959009 /* Utilities.h */,
+				E9F43FE51D9963FC00959009 /* Utilities.m */,
+				8440F9671D98504F00191CAD /* WebServiceConnect.h */,
+				8440F9681D98504F00191CAD /* WebServiceConnect.m */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		8440F96D1D985BF000191CAD /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				8440F97F1D98A1BF00191CAD /* Detalhe */,
+				8440F96E1D985BFC00191CAD /* Listas */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		8440F96E1D985BFC00191CAD /* Listas */ = {
+			isa = PBXGroup;
+			children = (
+				8440F96F1D985C0E00191CAD /* ListViewControllerTableViewController.h */,
+				8440F9701D985C0E00191CAD /* ListViewControllerTableViewController.m */,
+				8440F9721D985EC700191CAD /* ListTableViewCell.h */,
+				8440F9731D985EC700191CAD /* ListTableViewCell.m */,
+			);
+			name = Listas;
+			sourceTree = "<group>";
+		};
+		8440F9771D98801100191CAD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8440F9781D98801D00191CAD /* images */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		8440F9781D98801D00191CAD /* images */ = {
+			isa = PBXGroup;
+			children = (
+				8440F9801D98A21C00191CAD /* star.png */,
+				E9C35C881D99B54D00B41316 /* vivadecora.png */,
+				8440F97D1D9880F500191CAD /* visibility.png */,
+				8440F9791D98802600191CAD /* imageBackgorund.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		8440F97F1D98A1BF00191CAD /* Detalhe */ = {
+			isa = PBXGroup;
+			children = (
+				8440F9821D98A25C00191CAD /* DetailTableViewController.h */,
+				8440F9831D98A25C00191CAD /* DetailTableViewController.m */,
+			);
+			name = Detalhe;
+			sourceTree = "<group>";
+		};
+		E9C35C8B1D99BC7700B41316 /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				8440F94A1D98500300191CAD /* Main.storyboard */,
+				8440F94F1D98500300191CAD /* LaunchScreen.storyboard */,
+			);
+			name = StoryBoards;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8440F93D1D98500300191CAD /* VivaDecora */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8440F9601D98500400191CAD /* Build configuration list for PBXNativeTarget "VivaDecora" */;
+			buildPhases = (
+				8440F93A1D98500300191CAD /* Sources */,
+				8440F93B1D98500300191CAD /* Frameworks */,
+				8440F93C1D98500300191CAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VivaDecora;
+			productName = VivaDecora;
+			productReference = 8440F93E1D98500300191CAD /* VivaDecora.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8440F9361D98500300191CAD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Sakura Soft";
+				TargetAttributes = {
+					8440F93D1D98500300191CAD = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 8440F9391D98500300191CAD /* Build configuration list for PBXProject "VivaDecora" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8440F9351D98500300191CAD;
+			productRefGroup = 8440F93F1D98500300191CAD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8440F93D1D98500300191CAD /* VivaDecora */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8440F93C1D98500300191CAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8440F97E1D9880F500191CAD /* visibility.png in Resources */,
+				8440F9511D98500300191CAD /* LaunchScreen.storyboard in Resources */,
+				E9C35C891D99B54D00B41316 /* vivadecora.png in Resources */,
+				8440F97A1D98802600191CAD /* imageBackgorund.png in Resources */,
+				8440F94E1D98500300191CAD /* Assets.xcassets in Resources */,
+				8440F94C1D98500300191CAD /* Main.storyboard in Resources */,
+				8440F9811D98A21C00191CAD /* star.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8440F93A1D98500300191CAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8440F9711D985C0E00191CAD /* ListViewControllerTableViewController.m in Sources */,
+				E9F43FE61D9963FC00959009 /* Utilities.m in Sources */,
+				8440F9841D98A25C00191CAD /* DetailTableViewController.m in Sources */,
+				8440F9461D98500300191CAD /* AppDelegate.m in Sources */,
+				8440F9741D985EC700191CAD /* ListTableViewCell.m in Sources */,
+				8440F9431D98500300191CAD /* main.m in Sources */,
+				8440F9691D98504F00191CAD /* WebServiceConnect.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8440F94A1D98500300191CAD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8440F94B1D98500300191CAD /* Base */,
+				8440F9751D987BEA00191CAD /* pt-BR */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8440F94F1D98500300191CAD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8440F9501D98500300191CAD /* Base */,
+				8440F9761D987BEA00191CAD /* pt-BR */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8440F95E1D98500400191CAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8440F95F1D98500400191CAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8440F9611D98500400191CAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = VivaDecora/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Sidney.VivaDecora;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8440F9621D98500400191CAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = VivaDecora/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Sidney.VivaDecora;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8440F9391D98500300191CAD /* Build configuration list for PBXProject "VivaDecora" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8440F95E1D98500400191CAD /* Debug */,
+				8440F95F1D98500400191CAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8440F9601D98500400191CAD /* Build configuration list for PBXNativeTarget "VivaDecora" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8440F9611D98500400191CAD /* Debug */,
+				8440F9621D98500400191CAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8440F9361D98500300191CAD /* Project object */;
+}
